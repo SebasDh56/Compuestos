@@ -2,7 +2,7 @@ package com.example.application.views;
 
 
 import com.example.application.views.creacompuestos.CreacompuestosView;
-import com.example.application.views.elementos.ElementosView;
+
 import com.example.application.views.instrucciones.InstruccionesView;
 import com.example.application.views.listadecomponetnes.ListadecomponetnesView;
 import com.vaadin.flow.component.Component;
@@ -105,7 +105,6 @@ public class MainLayout extends AppLayout {
         return new MenuItemInfo[]{ //
                 new MenuItemInfo("Crea compuestos ", LineAwesomeIcon.GLOBE_SOLID.create(), CreacompuestosView.class), //
 
-                new MenuItemInfo("Elementos ", LineAwesomeIcon.FILTER_SOLID.create(), ElementosView.class), //
 
                 new MenuItemInfo("Lista de componetnes ", LineAwesomeIcon.TH_LIST_SOLID.create(),
                         ListadecomponetnesView.class), //
